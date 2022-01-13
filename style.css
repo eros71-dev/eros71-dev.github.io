@@ -10,6 +10,10 @@
     font-family: Jano Sans Pro;
     src: url('./res/fonts/Wii/Jano Sans Pro SemiBold.otf');
 }
+@font-face{
+    font-family: MinecraftUI;
+    src: url('./res/fonts/MC/better-minecraft.ttf');
+}
 *{
     font-family: Manrope;
     color: ;
@@ -38,6 +42,7 @@ nav{
     /*nav color*/
     background: rgb(85,0,0);
     background: linear-gradient(0deg, rgba(85,0,0,1) 1%, rgba(116,0,0,1) 6%, rgba(214,85,85,1) 90%, rgba(227,161,161,1) 96%, rgba(241,225,225,1) 100%);
+    user-select: none;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: Manrope-Bold;
@@ -57,4 +62,25 @@ h1,h2,h3,h4,h5,h6{
     position: fixed;
     align-items: center;
     justify-content: center;
+}
+.mc-text{
+    font-family: MinecraftUI;
+    color: #f7f43c;
+    text-shadow: 1px 1px 0px #847f7f;
+    position: absolute;
+    top: 1.2em;
+    left: 50em;
+    animation: mctitleanim 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mctitleanim{
+    0% {
+        transform: scale(1.0) rotate(-7deg);
+    }
+    100% {
+        transform: scale(1.2) rotate(-7deg);
+    }
 }
