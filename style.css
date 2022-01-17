@@ -43,9 +43,29 @@ nav{
     position: sticky;
 
 }
+
 h1,h2,h3,h4,h5,h6{
     font-family: Manrope-Bold;
 }
+
+a{
+    color: #f21f1f;;
+    text-decoration: none;
+}
+
+a:hover{
+    animation: link-animation 1s infinite alternate linear;
+}
+
+@keyframes link-animation{
+    0%{
+        color: #f21f1f;
+    }
+    100%{
+        color: #c12929;
+    }
+}
+
 .nav-title{
     /*nav title*/
     font-family: Jano Sans Pro;
@@ -87,7 +107,7 @@ h1,h2,h3,h4,h5,h6{
     margin-right: 25%;
     background-color: white;
     padding: 1em;
-    border-radius: 2%;
+    border-radius: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
     box-shadow:
@@ -176,5 +196,55 @@ p{
         color: rgb(236, 228, 228);
         text-shadow: 2px 2px 1px #514e4ebd;
         top: 1.2em;
+    }
+}
+
+.main-list-container{
+    text-align: center;
+}
+
+.main-text{
+    font-size: 1.4em;
+}
+
+.main-list{
+    font-size: 2em;
+    font-family: Manrope-Bold;
+    list-style: none;
+    margin-bottom: 0.2em;
+}
+
+.main-list a{
+    font-family: Manrope-Bold;
+}
+
+.hq-rips:hover{
+    animation: rainbow-text 5s infinite alternate linear;
+}
+
+@keyframes rainbow-text{  
+    0%{color: #f21f1f;}
+    10%{color: CadetBlue;}
+    20%{color: yellow;}
+    30%{color: coral;}
+    40%{color: green;}
+    50%{color: cyan;}
+    60%{color: DeepPink;}
+    70%{color: DodgerBlue;}
+    80%{color: orange;}
+    90%{color: purple;}
+    100%{color: #f21f1f;}
+}
+
+.soundcloud:hover{
+    animation: soundcloud-color 1s infinite alternate linear;
+}
+
+@keyframes soundcloud-color{
+    0%{
+        color: #f21f1f;
+    }
+    100%{
+        color: #f50;
     }
 }
