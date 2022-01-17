@@ -99,3 +99,16 @@ h1,h2,h3,h4,h5,h6{
 p{
     margin-bottom: 1em;
 }
+
+/* Media queries */
+/* Mobile */
+@media (max-width: 768px){
+    .separator{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+/* Tablet */
+@media (max-width: 1260px){
+
+}
