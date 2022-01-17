@@ -55,7 +55,6 @@ h1,h2,h3,h4,h5,h6{
 }
 .under-construction{
     color: #a83434;
-    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
