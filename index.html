@@ -6,7 +6,7 @@
 
 <head>
 <!-- MS Agent -->
-<link rel="stylesheet" type="text/css" href="https://gitcdn.xyz/repo/pi0/clippyjs/master/assets/clippy.css">
+<link rel="stylesheet" type="text/css" href="res/clippy/clippy.css">
 
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta charset="utf-8">
@@ -45,17 +45,19 @@
 		</div>
 	</div>
 
-		<!-- Clippy.js -->
-		<script src="https://unpkg.com/jquery@3.2.1"></script>
+<!-- jQuery 1.7+ -->
+<script src="res/jQuery/jquery.1.7.min.js"></script>
 
-		<script src="https://unpkg.com/clippyjs@latest"></script>
+<!-- Clippy.js -->
+<script src="res/clippy/clippy.min.js"></script>
 
-		<script type="text/javascript">
-		clippy.load('Merlin', function(agent){
-		    // Do anything with the loaded agent
-		    agent.show();
-		});
-		</script>
+<!-- Init script -->
+<script type="text/javascript">
+    clippy.load('Merlin', function(agent) {
+        // Do anything with the loaded agent
+        agent.show();
+    });
+</script>
 
 </body>
 
