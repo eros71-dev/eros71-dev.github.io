@@ -7,10 +7,6 @@
     src: url('./res/fonts/Manrope/Manrope-Bold.woff2');
 }
 @font-face{
-    font-family: Jano Sans Pro;
-    src: url('./res/fonts/Wii/Jano Sans Pro SemiBold.otf');
-}
-@font-face{
     font-family: MinecraftUI;
     src: url('./res/fonts/MC/better-minecraft.ttf');
 }
@@ -68,7 +64,7 @@ a:hover{
 
 .nav-title{
     /*nav title*/
-    font-family: Jano Sans Pro;
+    font-family: Manrope;
     font-size: 2em;
     color: rgb(236, 228, 228);
     text-shadow: 2px 2px 1px #514e4ebd;
@@ -150,7 +146,7 @@ p{
 
     .nav-title{
         /*nav title*/
-        font-family: Jano Sans Pro;
+        font-family: Manrope;
         font-size: 1em;
         color: rgb(236, 228, 228);
         text-shadow: 2px 2px 1px #514e4ebd;
@@ -189,7 +185,7 @@ p{
 
     .nav-title{
         /*nav title*/
-        font-family: Jano Sans Pro;
+        font-family: Manrope;
         font-size: 1em;
         color: rgb(236, 228, 228);
         text-shadow: 2px 2px 1px #514e4ebd;
