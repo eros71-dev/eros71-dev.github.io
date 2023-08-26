@@ -216,6 +216,22 @@ p{
     animation: rainbow-text 5s infinite alternate linear;
 }
 
+.gray-link{
+    color: #8383837d;
+    text-decoration: none;
+}
+
+.hidden-link:{
+    color: transparent;
+    text-decoration: none;
+}
+
+.hidden-link:hover{
+    transition: 0.3s;
+    color: #8383837d;
+    text-decoration: none;
+}
+
 @keyframes rainbow-text{  
     0%{color: #f21f1f;}
     10%{color: CadetBlue;}
