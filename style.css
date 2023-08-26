@@ -224,6 +224,7 @@ p{
 .hidden-link{
     color: transparent !important;
     text-decoration: none;
+    text-shadow: none;
 }
 
 .hidden-link:hover{
