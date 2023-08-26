@@ -222,13 +222,13 @@ p{
 }
 
 .hidden-link:{
-    color: transparent;
+    color: transparent !important;
     text-decoration: none;
 }
 
 .hidden-link:hover{
     transition: 0.3s;
-    color: #8383837d;
+    color: #8383837d !important;
     text-decoration: none;
 }
 
